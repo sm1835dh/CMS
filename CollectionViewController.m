@@ -62,8 +62,8 @@
     
     UIImageView *recipeImageView = (UIImageView *)[cell viewWithTag:100];
     recipeImageView.image = [UIImage imageNamed:[recipeImages objectAtIndex:indexPath.row]];
-    
-    return cell; 
+     
+    return cell;
 }
 
 /*
